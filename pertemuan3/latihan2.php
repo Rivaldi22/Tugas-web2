@@ -53,7 +53,6 @@
             document.getElementById("uas").value = "";
         }
     </script>
-    <!-- Button to clear input fields -->
     <button onclick="clearInputs()">Hapus</button>
 
     <?php
@@ -83,7 +82,7 @@
             return $nilai_akhir;
         }
 
-        // Fungsi untuk menentukan grade
+        // Fungsi menentukan grade
         function tentukanGrade($nilai_akhir) {
             if ($nilai_akhir >= 80) {
                 return 'A';
@@ -98,7 +97,7 @@
             }
         }
 
-        // Fungsi untuk menentukan keterangan
+        // Fungsi menentukan keterangan
         function tentukanKeterangan($nilai_akhir) {
             if ($nilai_akhir > 65) {
                 return 'Lulus';
